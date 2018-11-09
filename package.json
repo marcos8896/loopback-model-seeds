@@ -1,0 +1,30 @@
+{
+  "name": "loopback-model-seeds",
+  "version": "0.1.0",
+  "description": "A tool that generates fake records for Loopback models and their related models",
+  "main": "execute-seeds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LoopbackJS",
+    "NodeJS",
+    "FakerJS"
+  ],
+  "author": "Marcos Barrera del Río",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "empty-dir": "^1.0.0",
+    "faker": "^4.1.0",
+    "figlet": "^1.2.0",
+    "file-exists": "^5.0.1",
+    "inquirer": "^6.0.0",
+    "jsonfile": "^4.0.0",
+    "mkdirp": "^0.5.1",
+    "node-emoji": "^1.8.1",
+    "node-readfiles": "^0.2.0"
+  }
+}
